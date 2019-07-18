@@ -1,0 +1,11 @@
+# git
+
+alias ga='git add'
+alias gs='git status'
+alias gcm='git commit -m'
+alias gb='git -b'
+alias gco 'git checkout'
+alias gcob='git checkout -b'
+alias grb='git rebase'
+alias clone='git clone'
+alias bash='atom ~/.bash_profile'
