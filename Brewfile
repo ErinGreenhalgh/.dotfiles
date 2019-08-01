@@ -48,3 +48,4 @@ cask "caskroom/cask/java"
 cask 'spectacle'
 cask 'evernote'
 cask 'alfred'
+cask 'iterm2'
