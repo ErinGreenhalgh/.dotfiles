@@ -5,5 +5,7 @@ alias gcm='git commit -m'
 alias gco='git checkout'
 alias grb='git rebase'
 alias clone='git clone'
+alias gl='git log'
+alias gca='git commit --amend'
 
 
