@@ -7,5 +7,8 @@ alias grb='git rebase'
 alias clone='git clone'
 alias gl='git log'
 alias gca='git commit --amend'
+alias gbrename='git branch -m'
+alias gb='git branch'
+alias gd='git diff'
 
 
