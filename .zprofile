@@ -36,9 +36,6 @@ eval "$(nodenv init -)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# From bash Reference:
-# If $CDPATH is set, the cd built-in will not implicitly append the current directory to it.
-#T his means that cd will fail if no valid directory name can be constructed from any of the entries in $CDPATH,
-# even if a directory with the same name as the name given as an argument to cd exists in the current directory.
-CDPATH=".:~:~"
+setopt auto_cd
+cdpath=($HOME)
 
