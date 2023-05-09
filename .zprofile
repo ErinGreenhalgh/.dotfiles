@@ -16,6 +16,8 @@ if [ -f ~/.git-completion.bash ]; then
   __git_complete gb _git_branch
 fi
 
+autoload -Uz compinit && compinit
+
 if [ -f ~/.dotfiles/.prompt ]; then
   . ~/.dotfiles/.prompt
 fi
