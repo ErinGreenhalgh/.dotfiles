@@ -32,6 +32,10 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
+if command -v ngrok &>/dev/null; then
+    eval "$(ngrok completion)"
+fi
+
 # export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
